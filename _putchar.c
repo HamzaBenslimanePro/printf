@@ -9,7 +9,7 @@
  */
 int _putchar(char c)
 {
-        return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
 
 file: print_%.c
@@ -21,6 +21,6 @@ file: print_%.c
  */
 int print_37(void)
 {
-        _putchar(37);
-        return (1);
+	_putchar(37);
+	return (1);
 }
